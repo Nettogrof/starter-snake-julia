@@ -15,11 +15,11 @@ This is a basic implementation of the [Battlesnake API](https://docs.battlesnake
 
 ## Running Your Battlesnake on [Repl.it](https://repl.it)
 
-[![Run on Repl.it](https://repl.it/badge/github/BattlesnakeOfficial/starter-snake-Julia)](https://repl.it/github/BattlesnakeOfficial/starter-snake-Julia)
+[![Run on Repl.it](https://repl.it/badge/github/Nettogrof/starter-snake-julia)](https://repl.it/github/Nettogrof/starter-snake-julia)
 
 1. Login to your [Repl.it](https://repl.it) account.
 
-2. Click the 'Run on Repl.it' button above, or visit the following URL: https://repl.it/github/BattlesnakeOfficial/starter-snake-Julia.
+2. Click the 'Run on Repl.it' button above, or visit the following URL: https://repl.it/github/Nettogrof/starter-snake-julia
 
 3. You should see your Repl being initialized - this might take a few moments to complete.
 
