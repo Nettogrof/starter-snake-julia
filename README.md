@@ -1,6 +1,6 @@
 # A Simple [Battlesnake](http://play.battlesnake.com) Written in Julia
 
-This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/references/api). It's a great starting point for anyone wanting to program their first Battlesnake using Julia. It comes ready to use with [Repl.it](https://repl.it) and provides instructions below for getting started. It can also be deployed to [Heroku](https://heroku.com), or any other cloud provider you'd like.
+This is a basic implementation of the [Battlesnake API](https://docs.battlesnake.com/references/api). It's a great starting point for anyone wanting to program their first Battlesnake using Julia. It can also be deployed to [Heroku](https://heroku.com), or any other cloud provider you'd like.
 
 ### Technologies Used
 
@@ -38,13 +38,13 @@ julia main.jl
 
 1. Sign in to [play.battlesnake.com](https://play.battlesnake.com/login/).
 
-2. Go [here to create a new Battlesnake](https://play.battlesnake.com/account/snakes/create/). Give it a meaningful name and complete the form using the URL for your Repl from above.
+2. Go [here to create a new Battlesnake](https://play.battlesnake.com/account/snakes/create/). Give it a meaningful name and complete the form using the URL for your server info from above.
 
 3. Once your Battlesnake has been saved you can [create a new game](https://play.battlesnake.com/account/games/create/) and add your Battlesnake to it. Type your Battlesnake's name into the search field and click "Add" to add it to the game. Then click "Create Game" to start the game.
 
 4. You should see a brand new Battlesnake game with your Battlesnake in it! Yay! Press "Play" to start the game and watch how your Battlesnake behaves. By default your Battlesnake should move randomly around the board.
 
-5. Optionally, watch your Repl logs while the game is running to see your Battlesnake receiving API calls and responding with its moves.
+5. Optionally, watch your logs while the game is running to see your Battlesnake receiving API calls and responding with its moves.
 
 Repeat steps 3 and 4 every time you want to see how your Battlesnake behaves. It's common for Battlesnake developers to repeat these steps often as they make their Battlesnake smarter. You can also use the "Create Rematch" button to quickly start a new game using the same Battlesnakes and configuration.
 
@@ -82,9 +82,9 @@ See the [Battlesnake Game Rules](https://docs.battlesnake.com/references/rules) 
 
 ### Updating Your Battlesnake
 
-After making changes to your Battlesnake, you can restart your Repl to have the change take effect (or in many cases your Repl will restart automatically).
+After making changes to your Battlesnake, you can restart your snake to have the change take effect (or in many cases your snake will restart automatically).
 
-Once the Repl has restarted you can [create a new game](https://play.battlesnake.com/account/games/create/) with your Battlesnake to watch your latest changes in action.
+Once the snake has restarted you can [create a new game](https://play.battlesnake.com/account/games/create/) with your Battlesnake to watch your latest changes in action.
 
 **At this point you should feel comfortable making changes to your code and starting new Battlesnake games to test those changes!**
 
@@ -108,7 +108,7 @@ Once you have completed these steps you'll be ready to compete live against othe
 
 ### Helpful Tips
 
-* Keeping your Repl open in a second window while games are running is helpful for watching server activity and debugging any problems with your Battlesnake.
+* Keeping your server log/heroku open in a second window while games are running is helpful for watching server activity and debugging any problems with your Battlesnake.
 
 * You can use the Julia [println function](https://docs.julialang.org/en/v1/base/io-network/#Base.println) to output information to your server logs. This is very useful for debugging logic in your code during Battlesnake games.
 
