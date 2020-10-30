@@ -10,33 +10,25 @@ This is a basic implementation of the [Battlesnake API](https://docs.battlesnake
 ## Prerequisites
 
 * [Battlesnake Account](https://play.battlesnake.com)
-* [Repl.it Account](https://repl.it) (Optional)
 * [GitHub Account](https://github.com) (Optional)
 
-## Running Your Battlesnake on [Repl.it](https://repl.it)
+## Using a Cloud Provider
 
-[![Run on Repl.it](https://repl.it/badge/github/Nettogrof/starter-snake-julia)](https://repl.it/github/Nettogrof/starter-snake-julia)
+As your Battlesnake may gets complex and you may want to run it 24h/7, it might make sense to move it to a dedicated hosting provider such as Heroku or AWS. We suggest choosing a platform you're familiar with, or one you'd be interested in learning more about. You can do this by installing [julia](https://julialang.org/downloads/) and installing those two package requirement (Joseki, HTTP). Install package via julia package management. Example : import Pkg; Pkg.add("HTTP")
 
-1. Login to your [Repl.it](https://repl.it) account.
+If you have questions or ideas, our developer community on [Slack](https://play.battlesnake.com/slack) and [Discord](https://play.battlesnake.com/discord) will be able to help out.
 
-2. Click the 'Run on Repl.it' button above, or visit the following URL: https://repl.it/github/Nettogrof/starter-snake-julia
+## (Optional) Running Your Battlesnake Locally
 
-3. You should see your Repl being initialized - this might take a few moments to complete.
+Eventually you might want to run your Battlesnake server locally for faster testing and debugging. You can do this by installing [julia](https://julialang.org/downloads/) and installing those two package requirement (Joseki, HTTP). Install package via julia package management. Example : import Pkg; Pkg.add("HTTP")
 
-4. Once your Repl is ready to run, click `Run ▶️` at the top of the screen. You should see CherryPy (and any other dependencies) being installed. Once installation is complete, your Battlesnake server will start and you should see the following:
+Then you can lauch your Battlesnake:
+```shell
+julia main.jl
+```
 
-    ```
-    Starting Battlesnake Server...
-    ENGINE Serving on http://0.0.0.0:8080
-    ```
+**Note:** You cannot create games on [play.battlesnake.com](https://play.battlesnake.com) using a locally running Battlesnake unless you install and use a port forwarding tool like [ngrok](https://ngrok.com/).
 
-5. Above the terminal window you'll see the live output from your Battlesnake server, including its URL. That URL will be the URL used to create your Battlesnake in the next step. If you visit that URL in your browser, you should see text similar to this:
-
-    ```
-    {"apiversion": "1", "author": "", "color": "#888888", "head": "default", "tail": "default"}
-    ```
-
-This means your Battlesnake is running correctly on Repl.it.
 
 **At this point your Battlesnake is live and ready to enter games!**
 
@@ -131,28 +123,6 @@ Once you have completed these steps you'll be ready to compete live against othe
 Once you've made your Battlesnake behave and survive on its own, you can enter it into the [Global Battlesnake Arena](https://play.battlesnake.com/arena/global) to see how it performs against other Battlesnakes worldwide.
 
 Arenas will regularly create new games and rank Battlesnakes based on their results. They're a good way to get regular feedback on how well your Battlesnake is performing, and a fun way to track your progress as you develop your algorithm.
-
-
-
-## (Optional) Using a Cloud Provider
-
-As your Battlesnake gets more complex, it might make sense to move it to a dedicated hosting provider such as Heroku or AWS. We suggest choosing a platform you're familiar with, or one you'd be interested in learning more about.
-
-If you have questions or ideas, our developer community on [Slack](https://play.battlesnake.com/slack) and [Discord](https://play.battlesnake.com/discord) will be able to help out.
-
-
-
-## (Optional) Running Your Battlesnake Locally
-
-Eventually you might want to run your Battlesnake server locally for faster testing and debugging. You can do this by installing [julia](https://julialang.org/downloads/) and installing those two package requirement (Joseki, HTTP). Install package via julia package management. Example : import Pkg; Pkg.add("HTTP")
-
-Then you can lauch your Battlesnake:
-```shell
-julia main.jl
-```
-
-**Note:** You cannot create games on [play.battlesnake.com](https://play.battlesnake.com) using a locally running Battlesnake unless you install and use a port forwarding tool like [ngrok](https://ngrok.com/).
-
 
 ---
 
